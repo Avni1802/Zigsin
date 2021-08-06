@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  margin: 3em 4em 0em 4em;
+  background-color: white;
+  /* height: 100vh; */
 }
 
 .App-logo {
@@ -35,4 +38,124 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* header button */
+
+.btn-signin {
+  background: linear-gradient(to right, #ff7981, #ff8a57);
+  color: white;
+  border-radius: 40px;
+  height: 40px;
+  width: 120px;
+  border: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2em;
+}
+
+.list ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.list .item {
+  margin: 1em;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  color: rgb(97, 92, 92);
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-right button {
+  border-radius: 40px;
+  height: 40px;
+  width: 120px;
+  border: none;
+  background-color: white;
+}
+
+/* // center content */
+
+.main {
+  background-image: url(./assets/background.png);
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  border-radius: 10px;
+  width: 500px;
+  height: 220px;
+  padding: 2rem;
+  background-color: rgba(10, 34, 78, 0.45);
+  color: white;
+  /* font-size: 14px; */
+}
+
+.main-container p {
+  font-family: "Poppins", serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.main-container h1 {
+  font-family: "Merriweather", serif;
+}
+
+.main-container button {
+  margin-top: 20px;
+}
+
+/* List of Cards */
+
+.content {
+  background-color: #f4f8fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.content h2 {
+  font-family: "Merriweather", serif;
+  margin: 0;
+  /* font-size: px; */
+}
+
+.card {
+  font-family: "Poppins", serif;
+  background-color: white;
+  width: 435px;
+  margin: 10px;
+}
+
+.card div {
+  padding: 60px;
+}
+.card p {
+  font-size: 14px;
+}
+.card img {
+  width: 435px;
+}
+
+.card button {
+  width: 170px;
+  height: 40px;
+  background: none;
+  border-radius: 30px;
 }
